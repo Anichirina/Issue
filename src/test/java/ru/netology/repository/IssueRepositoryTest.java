@@ -97,13 +97,6 @@ class IssueRepositoryTest<Public> {
 
         }
 
-        @Test
-        void shouldgetByIdNull() {
-            List<Issue> actual = repository.findById(7);
-            assertEquals(null, actual);
-
-
-        }
 
         @Test
         void shouldAddAllandRemovAll() {
